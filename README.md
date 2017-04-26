@@ -1,6 +1,6 @@
 # npmtest-xoauth2
 
-#### test coverage for  [xoauth2 (v1.2.0)](https://github.com/andris9/xoauth2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-xoauth2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xoauth2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xoauth2.svg)](https://travis-ci.org/npmtest/node-npmtest-xoauth2)
+#### basic test coverage for  [xoauth2 (v1.2.0)](https://github.com/andris9/xoauth2#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-xoauth2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xoauth2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xoauth2.svg)](https://travis-ci.org/npmtest/node-npmtest-xoauth2)
 
 #### XOAuth2 token generation for accessing GMail SMTP and IMAP
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xoauth2/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xoauth2/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xoauth2/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xoauth2/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xoauth2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xoauth2/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xoauth2/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xoauth2/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xoauth2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xoauth2/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xoauth2/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xoauth2/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "grunt"
     },
-    "version": "1.2.0"
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
